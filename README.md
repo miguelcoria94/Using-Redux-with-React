@@ -45,5 +45,10 @@ Within the components render method, the store.getState method is called to retr
 
 This apporoach ensures that whenever state is updated in the store, the componenet will retrieve and render the updated state.
 
+./src/components/FruitList.js
+
+The componentDidMount and componentWillUpdate class component lifecylce methods can be used to ensure that the component subscribes to the store when it's mounted and unsubscribes from the store when the component is about to be unmounted.
+
+
 
 
