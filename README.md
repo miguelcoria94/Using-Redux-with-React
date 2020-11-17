@@ -24,7 +24,13 @@ Update components
 Note: You'll start with writing all of the code to interact with the store within each component that needs to render state from the store or to dispatch actions.
 
 <h1 align="center">
-Integrating Redux into a React app
+Organizing your Redux Code
 </h1>
+
+Instead of placing all of your Redux related code into a single file, you'ss seperate your store, reducer and actions into their own file.
+
+It might be better to seperate your files by feature. 
+
+It will keep you from searching and jumping around a project that contains hundreds of files.
 
 
