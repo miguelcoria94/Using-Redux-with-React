@@ -33,4 +33,18 @@ It might be better to seperate your files by feature.
 
 It will keep you from searching and jumping around a project that contains hundreds of files.
 
+<h1 align="center">
+Listening for state changes
+</h1>
+
+Components that need to render state from the store can use the store.subscribe method to subscribe for state updates.
+
+When a state update occurs, the forceUpdate method is called to render the component.
+
+Within the components render method, the store.getState method is called to retrieve the current state.
+
+This apporoach ensures that whenever state is updated in the store, the componenet will retrieve and render the updated state.
+
+
+
 
