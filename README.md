@@ -49,6 +49,18 @@ This apporoach ensures that whenever state is updated in the store, the componen
 
 The componentDidMount and componentWillUpdate class component lifecylce methods can be used to ensure that the component subscribes to the store when it's mounted and unsubscribes from the store when the component is about to be unmounted.
 
+<h1 align="center">
+Dispatching actions
+</h1>
+
+./src/components/FruitQuickAdd.js
+
+Updating a component to dispatch an action to the store is a bit simpler overall than listening for and rendering state updates. 
+
+You just need to import the appropriate action creator function and use the store.dispatch method within a event handler to dispatch the action.
+
+
+
 
 
 
