@@ -59,6 +59,20 @@ Updating a component to dispatch an action to the store is a bit simpler overall
 
 You just need to import the appropriate action creator function and use the store.dispatch method within a event handler to dispatch the action.
 
+<h1 align="center">
+Listening for state changes and dispatching actions
+</h1>
+
+/src/components/FruitSeller.js
+
+Sometimes components need to listen for and render state updates and dispatch actions to the store.
+
+The fruitSeller component listens for state updates so that it can render a collection of buttons--one for each distinct fruit available in the fruit stand. 
+
+The components also handles buttons clicks to dispatch an action to sell a fruit or to sell out all of the fruits.
+
+
+
 
 
 
