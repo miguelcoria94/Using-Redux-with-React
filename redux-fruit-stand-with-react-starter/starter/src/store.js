@@ -1,6 +1,6 @@
 
 import { createStore } from 'redux';
-import fruitReducer from './reducers/fruitReducer';
+import fruitReducer from './reducers/fruitReducers';
 
 const store = createStore(fruitReducer);
 
